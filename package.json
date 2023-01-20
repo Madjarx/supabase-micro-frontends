@@ -4,5 +4,9 @@
   "private": true,
   "workspaces": [
     "packages/*"
-  ]
+  ],
+  "scripts": {
+    "start-remote" : "yarn workspace remote build && yarn workspace remote preview",
+    "start-shell" : "yarn workspace shell dev"
+  }
 }
