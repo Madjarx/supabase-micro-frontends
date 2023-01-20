@@ -6,7 +6,13 @@
     "packages/*"
   ],
   "scripts": {
-    "start-remote" : "yarn workspace remote build && yarn workspace remote preview",
-    "start-shell" : "yarn workspace shell dev"
+    "start-remote": "yarn workspace remote build && yarn workspace remote preview",
+    "start-shell": "yarn workspace shell dev"
+  },
+  "dependencies": {
+    
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
   }
 }
