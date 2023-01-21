@@ -10,8 +10,8 @@ function App() {
 
   const handleLogin = async () => {
     let { data, error } = await supabase.auth.signInWithPassword({
-      email: 'lukaradisavljevic30@gmail.com',
-      password: 'luka2002'
+      email: 'example@email.com',
+      password: 'password'
     })
   }
 

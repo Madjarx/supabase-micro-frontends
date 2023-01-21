@@ -1,8 +1,10 @@
-// I should be the one to display the current session
-
 import { supabase } from "../supabase";
 
-
+/**
+ * This component logs the session on a click of a button.
+ * 
+ * Cool thig is that the session is created in a different app.
+ */
 export default function Button() {
 
     // This is one way to do it but you get a plain string
