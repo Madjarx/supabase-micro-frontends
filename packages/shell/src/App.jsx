@@ -8,6 +8,13 @@ import { supabase } from './supabase'
 
 function App() {
 
+  /*
+  * I hard-coded credentials just to show the Proof of Concept:
+  * "Supabase session is shared across the micro-frontends"
+  *
+  * I also believe in as simple as possible POCs so i avoided implementing
+  * auth logic since i believe this is sufficient for explanation
+  */
   const handleLogin = async () => {
     let { data, error } = await supabase.auth.signInWithPassword({
       email: 'example@email.com',
